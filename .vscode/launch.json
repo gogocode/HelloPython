@@ -53,6 +53,7 @@
             "module": "module.name",
             "cwd": "${workspaceRoot}",
             "env": {},
+            "program": "${file}",
             "envFile": "${workspaceRoot}/.env",
             "debugOptions": [
                 "WaitOnAbnormalExit",
@@ -162,6 +163,7 @@
             "pythonPath": "${config:python.pythonPath}",
             "cwd": "${workspaceRoot}",
             "env": {},
+            "program": "${file}",
             "envFile": "${workspaceRoot}/.env",
             "args": [
                 "${workspaceRoot}/development.ini"
